@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>GeneradorDeFirmaInduban</RootNamespace>
+    <UserSecretsId>542708be-5b20-4d54-a767-4327af8882d3</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DocumentFormat.OpenXml" Version="2.11.3" />
+    <PackageReference Include="EPPlus" Version="5.4.0" />
+    <PackageReference Include="LinqToExcel" Version="1.11.0" />
+    <PackageReference Include="TemplateEngine.Docx" Version="1.1.5" />
+    <PackageReference Include="VueCliMiddleware" Version="3.0.0" />
+  </ItemGroup>
+
+
+</Project>
